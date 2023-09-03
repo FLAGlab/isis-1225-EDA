@@ -1,51 +1,45 @@
-
-#Simple list implementation
-
+"""
+List implemantation with a pointer to the first and last
+"""
 head = {'value': None, 'next': None} 
 
 #O(n)
 def add(new_elem):
-    if head['value'] == None and head['next'] == None:
-        head['value'] = new_elem
-    else :
-        elem = head
-        while elem['next'] != None:
-            elem = elem['next']
-        elem['next'] = {'value': new_elem, 'next': None}
+    """
+    adds an element at the end of the list
+    """
+    pass
     
 #O(n)
 def delete(value):
-    elem = head
-    while elem['next']['value'] != value:
-        elem = elem['next']
-    elem['next'] = elem['next']['next']
+    """
+    Remove the first instance of the given element from 
+    the list
+    """
+    pass
 
 
 #O(n)
 def search(val):
-    elem = head
-    while elem['next'] != None:
-        if elem['value'] == val:
-            return elem['value']
-        else:
-            elem = elem['next']
+    """
+    Return the first instance of the given element from the list
+    """
+    pass
 
 #O(n)    
 def update(val, new_val):
-    elem = head
-    while elem['next'] != None:
-        if elem['value'] == val:
-            elem['value'] = new_val
-        else:
-            elem = elem['next']
+    """
+    Change the value for the first instance of the given
+    element for the new value
+    """
+    pass
 
 #O(n)
 def length():
-    elem = head
-    size = 0
-    while elem['next'] != None:
-        size += 1
-    return size
+    """
+    Return the number of elements in the list
+    """
+    pass
 
 
 

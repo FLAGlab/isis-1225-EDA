@@ -1,8 +1,20 @@
-import linkedlist_1 as List
+import linkedlist_2 as List
 
-List.add(1)
-List.add(2)
+l = List.create_list()
+List.add(l,1)
+List.add(l,2)
 
-print(List.size)
-print(List.head)
-print(List.last)
+
+print(l)
+
+l2 = List.create_list()
+List.add(l2, 'a')
+List.add(l2, 'b')
+
+print(l2)
+# List.add('a')
+# List.add('b')
+
+# print(List.size)
+# print(List.head)
+# print(List.last)
