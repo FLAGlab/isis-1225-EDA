@@ -1,41 +1,54 @@
+import linkedlist_2 as List
+
 """
  Queues are implemented as lists, where enqueue adds to 
  the end of the list and dequeue removes the first element
+ Must import the correct list implementation
 """
-
+#O(1)
 def new_queue():
     """
     Create an empty queue
     """
-    pass
+    return List.new_list()
 
-def enqueue():
+#O(1)
+def enqueue(queue, elem):
     """
     Add an element to the end of the queue
     """
-    pass
+    List.add(queue, elem)
 
-def dequeue():
+#O(1)
+def dequeue(queue):
     """
     Remove the first element from the front of the queue
     all elements move to the front one position
     """
-    pass
+    #queue['head'] = queue['head']['next']
+    head = List.first(queue)
+    second = List.second(queue)
+    List.update_head(queue, head, second)
 
-def peek():
+
+#O(1)
+def peek(queue):
     """
     Check the first element of the queue
     """
-    pass
+    return List.first(queue)
 
-def is_empty():
+#O(1)
+def is_empty(queue):
     """
     Verifies if the queue is empty
     """
-    pass
+    #return List.first_value(queue) == None 
+    return List.size(queue) == 0
 
-def size():
+#O(1)
+def size(queue):
     """
     returns the number of elements in the queue
     """
-    pass
+    List.size(queue)
