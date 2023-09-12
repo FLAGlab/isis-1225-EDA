@@ -22,13 +22,6 @@
  * Fernando De la Rosa
  *
  """
-
-import config
-# from DISClib.DataStructures import listnode as node
-from DISClib.Utils import error as error
-import csv
-assert config
-
 """
   Este módulo implementa una estructura de datos lineal mediante una lista
   encadenada sencillamente RECURSIVA para almacenar una colección de elementos.
@@ -36,30 +29,55 @@ assert config
   La definición recursiva de la lista esta dada por:
       - Una lista es la lista vacía. [] aka None
       - Un elemento agregado como prefijo de una lista. a | list 
-  Los elementos se cuentan desde la posición 1.
 """
 
-def empty_list():
+def create_list():
     """
     Definición de la lista vacía
     """
     return None
 
-def cons(element, list):
+def cons(list, elem):
     """
     Agrega el elemento element, como el primer elemento de la lista list
     """
-    return {'info': element, 'next': list}
+    if list == None:
+        return {'v': elem, 'next': None}
+    else:
+        return {'v':elem, 'next': list}
 
 def head(list):
     """
     Retorna el primer elemento de la lista dada 
     """
-    return list['info']
+    if list == None:
+        return None
+    else:
+        return list['v']
 
 def tail(list):
     """
     returnla la lista conformada desde el segundo elemento de list
-    """
-    return list['next']
+    """    
+    if list == None:
+        return None
+    else:
+        return list['next']
+    
+def size(list):
+    def size_iter(list, length):
+        if list == None:
+            return length
+        else:
+            return size_iter(tail(list), length + 1)
+    size_iter(list, 0)
 
+def is_present(list, elem):
+    def is_present_iter(list, pos):
+        if list == None:
+            return -1
+        elif head(list) == elem:
+            return pos
+        else:
+            is_present_iter(tail(list), pos + 1)
+    is_present_iter(list, 0)
