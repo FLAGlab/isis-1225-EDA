@@ -1,4 +1,4 @@
-import linkedlist_2 as List
+import linkedlist_2_sol as List
 
 """
  Queues are implemented as lists, where enqueue adds to 
@@ -10,7 +10,7 @@ def new_queue():
     """
     Create an empty queue
     """
-    return List.new_list()
+    return List.create_list()
 
 #O(1)
 def enqueue(queue, elem):
@@ -29,6 +29,7 @@ def dequeue(queue):
     head = List.first(queue)
     second = List.second(queue)
     List.update_head(queue, head, second)
+    return head['value']
 
 
 #O(1)

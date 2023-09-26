@@ -81,3 +81,46 @@ def is_present(list, elem):
         else:
             is_present_iter(tail(list), pos + 1)
     is_present_iter(list, 0)
+
+
+def insert_last(list, elem):
+    def insert_last_iter(list, elem, res):
+        if head(list) == None:
+            return reverse(res)
+        else:
+            insert_last_iter(tail(list), elem, cons(res, head(list)))
+    return insert_last_iter(list, elem, create_list())
+
+def reverse(list):
+    def reverse_iter(list, res):
+        if head(list) == None:
+            return res
+        else:
+            reverse_iter(tail(list), cons(res, head(list)))
+    return reverse_iter(list, create_list())
+
+def delete_first(list):
+    if head(list) == None:
+        return None
+    else:
+        return tail(list)
+    
+def delete_last(list):
+    if head(list) == None:
+        return None
+    elif tail(list) == None:
+        elem = head(list)
+        elem['prev']['next'] = elem['next']
+        elem['prev'] = None
+    else:
+       return delete_last(tail(list))
+
+
+
+
+
+
+
+
+
+
