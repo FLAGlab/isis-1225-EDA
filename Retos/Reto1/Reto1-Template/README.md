@@ -9,9 +9,9 @@
 
 The first project in the class focused reading and loading different data sources from CSV files and to the use the ADT list such as the Array List, Single Linked List, Stack and Queue.
 
-This repository is part of the data structure and algorithms (#EDA) teaching framework at Universidad de los Andes. The repository was developed by faculty professors and staff in the Department of Systems and Computer Engineer (#DISC) and uses the Non-Object-Oriented Python library **DISCLib**.
+This repository is part of the data structure and algorithms (#EDA) teaching framework at Universidad de los Andes. The repository was developed by faculty professors and staff in the Department of Systems and Computer Engineer (#DISC).
 
-[DISClib][disclib-url] · [DISClib Demo and Examples][demo-url] · [Report Bug][challenge1-bugs-url] · [Request Feature][challenge1-issues-url]
+[Report Bug][challenge1-bugs-url] · [Request Feature][challenge1-issues-url]
 
 <!-- PROJECT CONTENT -->
 **Table of Contents (up to date)**
