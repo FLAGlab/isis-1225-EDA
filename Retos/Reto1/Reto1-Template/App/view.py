@@ -23,9 +23,7 @@
 import config as cf
 import sys
 import controller
-from DISClib.ADT import list as lt
-from DISClib.ADT import stack as st
-from DISClib.ADT import queue as qu
+#TODO: import your list and sorting implementations
 assert cf
 from tabulate import tabulate
 import traceback

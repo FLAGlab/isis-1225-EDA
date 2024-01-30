@@ -26,14 +26,7 @@
 
 
 import config as cf
-from DISClib.ADT import list as lt
-from DISClib.ADT import stack as st
-from DISClib.ADT import queue as qu
-from DISClib.Algorithms.Sorting import shellsort as sa
-from DISClib.Algorithms.Sorting import insertionsort as ins
-from DISClib.Algorithms.Sorting import selectionsort as se
-from DISClib.Algorithms.Sorting import mergesort as merg
-from DISClib.Algorithms.Sorting import quicksort as quk
+#TODO: import your list and sorting implementations
 assert cf
 
 """
