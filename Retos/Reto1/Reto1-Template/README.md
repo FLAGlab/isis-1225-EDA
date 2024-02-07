@@ -76,9 +76,6 @@ To use this template, you need to follow the steps below:
 ## Contact and support
 
 For further information and contact, use the following links:
-
-* Official Repository [DISClib][disclib-url].
-* Repository for [Demo and Examples][demo-url].
   
 If you require further information, please contact us [via this email](mailto:isis1225@uniandes.edu.co)
 
