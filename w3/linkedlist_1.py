@@ -3,9 +3,7 @@ Head-Tail List implemantation with pointers to the first and last
 We must keep a pointer to the head and tail of the list.
 Additionally, we keep a variable of the size of the list
 """
-head = {'value': None, 'next': None} 
-last = head
-size = 0
+
 
 #O(1)
 def add(new_elem):

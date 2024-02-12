@@ -1,7 +1,7 @@
 """
 List implemantation with a pointer to the first and last
 """
-head = {'value': None, 'next': None} 
+
 
 #O(n)
 def add(new_elem):
