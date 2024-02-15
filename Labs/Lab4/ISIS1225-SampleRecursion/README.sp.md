@@ -9,9 +9,7 @@
 
 Este repositorio es el marco para el uinto laboratorio. Este laboratorio se centra en algoritmos recusivos, y los compara con sus contrapartes iterativas. Después de terminar ambas prácticas, los estudiantes aprenderán las diferencias entre los varios algoritmos recursivos e iterativos, y sus efectos en el tiempo de ejecución y la memoria utilizada.
 
-Este repositorio forma parte del marco docente de estructura de datos y algoritmos (#EDA) de la Universidad de los Andes. El repositorio fue desarrollado por profesores y personal de la facultad en Departamento de Ingenieria de Sistemas y Computación (#DISC) y utiliza la librería Python **DISCLib**.
-
-[DISClib][disclib-url] · [Ejemplos y Tutoriales DISClib][demo-url] · [Reportar Errores][sample-recur-bugs-url] · [Solicitar Funcionalidades][sample-recur-issues-url]
+Este repositorio forma parte del marco docente de estructura de datos y algoritmos (#EDA) de la Universidad de los Andes. El repositorio fue desarrollado por profesores y personal de la facultad en Departamento de Ingenieria de Sistemas y Computación (#DISC).
 
 <!-- PROJECT CONTENT -->
 **Tabla de contenido (actualizada)**
@@ -52,7 +50,6 @@ Este repositorio plantilla se usa en los laboratorios del curso de estructuras d
 
 Este repositorio de laboratorio tiene cuatro partes principales:
 
-1. [DISClib](./DISClib) Carpeta raíz con la biblioteca oficial del curso. Para obtener más información sobre su implementación, visite el [Repositorio DISClib][disclib-url].
 1. Carpeta [App](./App) con los scripts de Python Modelo-Vista-Controlador (MVC). Aquí los estudiantes implementan su código para completar las instrucciones de laboratorio.
 1. [Data](./Data) Carpeta con archivos de datos CSV para cargar en la aplicación. Aquí los estudiantes agregan los archivos de datos proporcionados por el personal del curso para completar el laboratorio.
 1. [Docs](./Docs) Carpeta con el informe, tabla de datos y otra documentación. Aquí los estudiantes agregan su informe de proyecto, tablas de datos y otros archivos para complementar su implementación de código.
@@ -79,7 +76,6 @@ Para usar esta plantilla, debe seguir los pasos a continuación:
 
 Para más información y contactarnos, utilice los siguientes enlaces:
 
-  * Repositorio Oficial [DISClib][disclib-url].
   * Repositorio para [Demo y Ejemplos][demo-url].
   
 Si necesita más información, póngase en contacto con nosotros [en este correo](mailto:isis1225@uniandes.edu.co)
@@ -129,7 +125,7 @@ Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<!-- links for DISClib -->
+<!-- links -->
 [contributors-shield]: https://img.shields.io/github/contributors/ISIS1225DEVS/ISIS1225-Lib.svg?style=for-the-badge
 [contributors-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ISIS1225DEVS/ISIS1225-Lib.svg?style=for-the-badge
@@ -145,7 +141,6 @@ Este programa se distribuye con la esperanza de que sea útil, pero SIN NINGUNA 
 [product-screenshot]: images/screenshot.png -->
 [uniandes-url]: https://cursos.virtual.uniandes.edu.co/isis1225/
 [organization-url]: https://github.com/ISIS1225DEVS/
-[disclib-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib
 [demo-url]: https://github.com/ISIS1225DEVS/ISIS1225-Examples
 [bugs-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib/issues
 [issues-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib/issues

@@ -9,9 +9,7 @@
 
 This repository is the framework for the fifth laboratory. This labs focus on recursive algorithms, and comparing them agains the iterative option respectively. After finishing both practices, the students will learn the differences between implementing recursive and iterative algorithms, and their effects on execution time and memory usage.
 
-This repository is part of the data structure and algorithms (#EDA) teaching framework at Universidad de los Andes. The repository was developed by faculty professors and staff in the Department of Systems and Computer Engineer (#DISC) and uses the Python library **DISCLib**.
-
-[DISClib][disclib-url] · [DISClib Demo and Examples][demo-url] · [Report Bug][sample-recur-bugs-url] · [Request Feature][sample-recur-issues-url]
+This repository is part of the data structure and algorithms (#EDA) teaching framework at Universidad de los Andes. The repository was developed by faculty professors and staff in the Department of Systems and Computer Engineer (#DISC).
 
 <!-- PROJECT CONTENT -->
 **Table of Contents (up to date)**
@@ -52,7 +50,6 @@ This is a template repository to use in the laboratories in the data structures 
 
 This laboratory repository has four main parts:
 
-1. [DISClib](./DISClib) Root folder with the official course library. For more on its implementation visit the [DISClib Repository][disclib-url].
 1. [App](./App) Folder with the Model-View-Controller (MVC) Python scripts. In here the students implement their code to complete the laboratory instructions.
 1. [Data](./Data) Folder with CSV data files to load into the application. In here the students add the data files provided by the course staff to complete the laboratory.
 1. [Docs](./Docs) Folder with the report, data table and other documentation. In here the students add their project report, data tables and other files to complement their code implementation.
@@ -78,7 +75,6 @@ To use this template, you need to follow the steps below:
 
 For further information and contact, use the following links:
 
-* Official Repository [DISClib][disclib-url].
 * Repository for [Demo and Examples][demo-url].
   
 If you require further information, please contact us [via this email](mailto:isis1225@uniandes.edu.co)
@@ -128,7 +124,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-<!-- links for DISClib -->
+<!-- links  -->
 [contributors-shield]: https://img.shields.io/github/contributors/ISIS1225DEVS/ISIS1225-Lib.svg?style=for-the-badge
 [contributors-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ISIS1225DEVS/ISIS1225-Lib.svg?style=for-the-badge
@@ -144,7 +140,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 [product-screenshot]: images/screenshot.png -->
 [uniandes-url]: https://cursos.virtual.uniandes.edu.co/isis1225/
 [organization-url]: https://github.com/ISIS1225DEVS/
-[disclib-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib
 [demo-url]: https://github.com/ISIS1225DEVS/ISIS1225-Examples
 [bugs-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib/issues
 [issues-url]: https://github.com/ISIS1225DEVS/ISIS1225-Lib/issues
