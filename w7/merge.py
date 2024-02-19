@@ -1,49 +1,27 @@
-import recursivesinglelinkedlistv3 as List
 
 def merge_sort(list):
-    size = List.size(list)
-    mid = size //2 
-    if size == 1:
-        return list
-    else:
-        l = sublist(list, 0, mid)
-        r = sublist(list, mid+1, size)
-
-        l_ord = merge_sort(l)
-        r_ord = merge_sort(r)
-
-        return order(l_ord, r_ord)
+    """
+    Split the list into two part to order, then order each part
+    """
+    pass
 
 
-def order(l1, l2):
-    def order_iter(l1, l2, res):
-        if List.head(l1) == None and List.head(l2) == None:
-            return List.reverse(res)
-        elif List.head(l1) == None:
-            return List.appen(List.reverse(res), l2)
-        elif List.head(l2) == None:
-            return List.append(List.reverse(res), l1)
-        else:
-            e1 = List.head(l1)
-            e2 = List.head(l2)
-            if e1 <= e2:
-                res = List.cons(res, e1)
-                return order_iter(List.tail(l1), l2, res)
-            else:
-                res = List.cons(res, e2)
-                return order_iter(l1, List.tail(l2), res)
-    return order_iter(l1, l2, List.create_list())
+def split(l, init, end):
+    """
+    Returns the result of taking the elements between 
+    init and end from the list l
+    """
+    pass
 
 
+def merge(l1, l2):
+    """
+    returns an ordered list containing the elements
+    from l1 and l2
+    """
+    pass
 
-def sublist(list, init, end):
-    def partir_iter(list, count, res):
-        if count == end:
-            return List.reverse(res)
-        elif count < init:
-            return (List.tail(list), count + 1, res)
-        else:
-            res = List.cons(res, List.head(list))
-            count += 1
-            return partir_iter(List.tail(list), count, res)
-    return partir_iter(list, 0, List.create_list())
+#API
+l = [1, 25, 16, 12, 22, 0, 64, 42, 6]
+l2 = merge_sort(l)
+print(l2) 
