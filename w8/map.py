@@ -49,4 +49,8 @@ def value_set(map):
     '''
     pass
 
-
+def get_pos(key):
+    """
+    Returns the position in the map of the element with the given key
+    """
+    pass
